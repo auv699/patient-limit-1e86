@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'HYTiaoTiao';
+  src: url('https://www.jiasorry.com/assets/font/HYTiaoTiao.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'HYTiaoTiao', sans-serif;
+}
 import "./styles.css";
 
 import React, { useEffect, useRef, useState } from "react";
