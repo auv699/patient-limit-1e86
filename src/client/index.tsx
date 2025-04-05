@@ -90,10 +90,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>你们在哪里？？?</h1>
+      <h1>你当前位置</h1>
       {counter !== 0 ? (
         <p>
-          <b>{counter}</b> {counter === 1 ? "person" : "people"} connected.
+          <b>{counter}</b> {counter === 1 ? "连接人数" : "people"} 
         </p>
       ) : (
         <p>&nbsp;</p>
