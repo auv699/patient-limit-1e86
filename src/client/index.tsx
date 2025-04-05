@@ -1,15 +1,20 @@
-@font-face {
-  font-family: 'HYTiaoTiao';
-  src: url('https://www.jiasorry.com/assets/font/HYTiaoTiao.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+const style = document.createElement('style');
+style.innerHTML = `
+  @font-face {
+    font-family: 'HYTiaoTiao';
+    src: url('https://www.jiasorry.com/assets/font/HYTiaoTiao.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
-body {
-  font-family: 'HYTiaoTiao', sans-serif;
-}
+  body {
+    font-family: 'HYTiaoTiao', sans-serif;
+  }
+`;
+document.head.appendChild(style);
+
+
 import "./styles.css";
-
 import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import createGlobe from "cobe";
