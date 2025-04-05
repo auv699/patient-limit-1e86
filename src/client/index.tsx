@@ -107,9 +107,7 @@ function App() {
 
       {/* Let's give some credit */}
       <p>
-        Powered by <a href="https://cobe.vercel.app/">🌏 Cobe</a>,{" "}
-        <a href="https://www.npmjs.com/package/phenomenon">Phenomenon</a> and{" "}
-        <a href="https://npmjs.com/package/partyserver/">🎈 PartyServer</a>
+        <p>本站由 <a href="https://www.jiasorry.com/">JA</a> 赞助推出</p>
       </p>
     </div>
   );
